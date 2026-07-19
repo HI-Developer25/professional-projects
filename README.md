@@ -4,18 +4,18 @@
 
 **A curated portfolio of production applications I've architected, built, and shipped as a full-stack software engineer.**
 
-[![Full-Stack Engineer](https://img.shields.io/badge/Role-Full--Stack%20Software%20Engineer-2b6cb0?style=for-the-badge)](#-about)
-[![Location](https://img.shields.io/badge/Based%20in-Karachi%2C%20Pakistan-informational?style=for-the-badge)](#-contact)
+![Full Stack Engineer](https://img.shields.io/badge/Full%20Stack-Engineer-blue?style=for-the-badge)
+[![Location](https://img.shields.io/badge/Based%20in-Karachi,%20Pakistan-informational?style=for-the-badge)](#-contact)
 [![Status](https://img.shields.io/badge/Status-Actively%20Building-success?style=for-the-badge)](#-projects-overview)
 
 [![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)](https://laravel.com)
-[![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=flat-square&logo=nuxtdotjs&logoColor=white)](https://nuxt.com)
+[![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=flat-square&logo=nuxt&logoColor=white)](https://nuxt.com)
 [![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)](https://vuejs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com)
 [![GitHub Actions](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)](#-engineering-practices)
-[![Linux](https://img.shields.io/badge/Linux%20VPS-FCC624?style=flat-square&logo=linux&logoColor=black)](#-devops--infrastructure)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)](https://kernel.org)
 
 </div>
 
