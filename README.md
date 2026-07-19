@@ -54,7 +54,7 @@ Every project listed here was built during professional employment, for a real e
 | :-: | --- | --- | --- | --- | :-: |
 | 1 | **[Gwadar Gymkhana — Public Website](./Gwadar-Gymkhana-Website)** | Sole Developer | Marketing site + payments | Nuxt 4 · Laravel · Bank Alfalah APG | 🟢 Live |
 | 2 | **[Gwadar Gymkhana — Member Portal](./Gwadar-Gymkhana-Member-Portal)** | Sole Developer | Member self-service dashboard | Nuxt 4 (BFF) · Laravel Sanctum | 🟢 Live |
-| 3 | **[VSH News — Advertising Platform](./VSH-News-Advertising-Platform)** | Developer | Marketing SPA + lead capture | Vue 3 · Vite · CRM integration | 🟢 Live |
+| 3 | **[VSH News — Advertising Platform](./VSH-News-Advertising-Platform)** | Sole Developer | Marketing SPA + lead capture | Vue 3 · Vite · CRM integration | 🟢 Live |
 | 4 | **[ERP & Logistics Systems](./ERP-Logistics-System)** | Backend Developer | Multi-module ERP | Laravel · Yii · CodeIgniter | ✅ Completed |
 
 <details>
