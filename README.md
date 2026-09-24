@@ -87,49 +87,114 @@ A set of ERP modules — inventory, POS, purchasing, sales, and courier tracking
 <tr>
 <td valign="top" width="50%">
 
-**Backend**
+**⚙️ Backend**
 
 [![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white)](https://laravel.com)
 [![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)](https://www.php.net)
 [![Yii](https://img.shields.io/badge/Yii-005A9C?style=flat&logo=yii&logoColor=white)](https://www.yiiframework.com)
 [![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EE4623?style=flat&logo=codeigniter&logoColor=white)](https://codeigniter.com)
 [![REST API](https://img.shields.io/badge/REST%20API-005571?style=flat&logo=fastapi&logoColor=white)](https://restfulapi.net)
-[![Laravel Sanctum](https://img.shields.io/badge/Laravel%20Sanctum-FF2D20?style=flat&logo=laravel&logoColor=white)](https://laravel.com/docs/sanctum)
-[![Laravel Fortify](https://img.shields.io/badge/Laravel%20Fortify-FF2D20?style=flat&logo=laravel&logoColor=white)](https://laravel.com/docs/fortify)
-[![Pest](https://img.shields.io/badge/Pest-56C02B?style=flat)](https://pestphp.com)
-[![PHPStan](https://img.shields.io/badge/PHPStan-1B5E20?style=flat)](https://phpstan.org)
+[![Laravel Queues](https://img.shields.io/badge/Laravel%20Queues-FF2D20?style=flat&logo=laravel&logoColor=white)](https://laravel.com/docs/queues)
+[![Laravel Wayfinder](https://img.shields.io/badge/Laravel%20Wayfinder-FF2D20?style=flat&logo=laravel&logoColor=white)](https://github.com/laravel/wayfinder)
 
-**Frontend**
-
-[![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vuedotjs&logoColor=white)](https://vuejs.org)
-[![Nuxt.js](https://img.shields.io/badge/Nuxt.js-00DC82?style=flat&logo=nuxtdotjs&logoColor=white)](https://nuxt.com)
-[![Nuxt UI](https://img.shields.io/badge/Nuxt%20UI-00DC82?style=flat&logo=nuxtdotjs&logoColor=white)](https://ui.nuxt.com)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
-[![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat&logo=greensock&logoColor=black)](https://gsap.com)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)](https://vite.dev)
-[![Inertia.js](https://img.shields.io/badge/Inertia.js-9553E9?style=flat)](https://inertiajs.com)
+Eloquent ORM · queued jobs · mailables · DomPDF for PDF documents
 
 </td>
 <td valign="top" width="50%">
 
-**Data & Integrations**
+**🎨 Frontend**
+
+[![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vuedotjs&logoColor=white)](https://vuejs.org)
+[![Nuxt.js](https://img.shields.io/badge/Nuxt.js-00DC82?style=flat&logo=nuxtdotjs&logoColor=white)](https://nuxt.com)
+[![Inertia.js](https://img.shields.io/badge/Inertia.js-9553E9?style=flat)](https://inertiajs.com)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)](https://vite.dev)
+[![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat&logo=greensock&logoColor=black)](https://gsap.com)
+
+SSR · SSG · SPA · BFF proxy layers
+
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
+
+**🧱 UI & Components**
+
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![Nuxt UI](https://img.shields.io/badge/Nuxt%20UI-00DC82?style=flat&logo=nuxtdotjs&logoColor=white)](https://ui.nuxt.com)
+[![shadcn-vue](https://img.shields.io/badge/shadcn--vue-000000?style=flat&logo=shadcnui&logoColor=white)](https://www.shadcn-vue.com)
+[![Reka UI](https://img.shields.io/badge/Reka%20UI-1F2937?style=flat)](https://reka-ui.com)
+[![TanStack Table](https://img.shields.io/badge/TanStack%20Table-FF4154?style=flat)](https://tanstack.com/table)
+[![Lucide Icons](https://img.shields.io/badge/Lucide%20Icons-F56565?style=flat&logo=lucide&logoColor=white)](https://lucide.dev)
+
+Responsive from ~320px · light/dark themes · design-system docs
+
+</td>
+<td valign="top" width="50%">
+
+**🔐 Auth & Security**
+
+[![Laravel Sanctum](https://img.shields.io/badge/Laravel%20Sanctum-FF2D20?style=flat&logo=laravel&logoColor=white)](https://laravel.com/docs/sanctum)
+[![Laravel Fortify](https://img.shields.io/badge/Laravel%20Fortify-FF2D20?style=flat&logo=laravel&logoColor=white)](https://laravel.com/docs/fortify)
+[![Passkeys (WebAuthn)](https://img.shields.io/badge/Passkeys%20%28WebAuthn%29-3423A6?style=flat&logo=webauthn&logoColor=white)](https://webauthn.io)
+[![2FA (TOTP)](https://img.shields.io/badge/2FA%20%28TOTP%29-4B5563?style=flat)](https://en.wikipedia.org/wiki/Time-based_one-time_password)
+[![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat&logo=zod&logoColor=white)](https://zod.dev)
+
+OTP login · role & permission access control · CSRF & httpOnly sessions · HMAC-signed redirects
+
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
+
+**🗄️ Data & Integrations**
 
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)](https://www.mysql.com)
 [![MSSQL](https://img.shields.io/badge/MSSQL-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)](https://www.microsoft.com/en-us/sql-server)
-[![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat&logo=zod&logoColor=white)](https://zod.dev)
+[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)](https://www.sqlite.org)
 
-Payment gateways · CRM webhooks (Privyr) · courier tracking APIs · WordPress/Shopify integrations
+Payment gateways · CRM webhooks (Privyr) · courier tracking APIs · transactional email · WordPress/Shopify integrations
 
-**DevOps & Infrastructure**
+</td>
+<td valign="top" width="50%">
 
-[![Linux](https://img.shields.io/badge/Linux%20Administration-FCC624?style=flat&logo=linux&logoColor=black)](https://www.linux.org)
-[![Apache](https://img.shields.io/badge/Apache%20Reverse%20Proxy-D22128?style=flat&logo=apache&logoColor=white)](https://httpd.apache.org)
-[![PM2](https://img.shields.io/badge/PM2-2B037A?style=flat&logo=pm2&logoColor=white)](https://pm2.keymetrics.io)
+**🧪 Testing & Code Quality**
+
+[![Pest](https://img.shields.io/badge/Pest-56C02B?style=flat)](https://pestphp.com)
+[![PHPStan (Larastan)](https://img.shields.io/badge/PHPStan%20%28Larastan%29-1B5E20?style=flat)](https://phpstan.org)
+[![Laravel Pint](https://img.shields.io/badge/Laravel%20Pint-FF2D20?style=flat&logo=laravel&logoColor=white)](https://laravel.com/docs/pint)
+[![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat&logo=eslint&logoColor=white)](https://eslint.org)
+[![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=flat&logo=prettier&logoColor=black)](https://prettier.io)
+
+PHPStan level 7 · strict TypeScript (`vue-tsc`) · CI-gated merges and deploys
+
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
+
+**🚀 DevOps & Infrastructure**
+
+[![Linux Administration](https://img.shields.io/badge/Linux%20Administration-FCC624?style=flat&logo=linux&logoColor=black)](https://www.linux.org)
+[![Apache Reverse Proxy](https://img.shields.io/badge/Apache%20Reverse%20Proxy-D22128?style=flat&logo=apache&logoColor=white)](https://httpd.apache.org)
 [![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)](https://github.com/features/actions)
+[![PM2](https://img.shields.io/badge/PM2-2B037A?style=flat&logo=pm2&logoColor=white)](https://pm2.keymetrics.io)
 [![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)](https://www.cloudflare.com)
 [![Webuzo](https://img.shields.io/badge/Webuzo-2C3E50?style=flat)](https://webuzo.com)
 [![Plesk](https://img.shields.io/badge/Plesk-52BBE6?style=flat&logo=plesk&logoColor=white)](https://www.plesk.com)
+
+rsync/SSH deploys · separate staging & production · zero-downtime reloads
+
+</td>
+<td valign="top" width="50%">
+
+**📦 Tooling**
+
+[![Composer](https://img.shields.io/badge/Composer-885630?style=flat&logo=composer&logoColor=white)](https://getcomposer.org)
+[![pnpm](https://img.shields.io/badge/pnpm-F69220?style=flat&logo=pnpm&logoColor=white)](https://pnpm.io)
+[![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)](https://git-scm.com)
+
+Laravel Sail · Tinker · Pail · Laravel Boost
 
 </td>
 </tr>
@@ -168,7 +233,8 @@ Across these projects, a few architectural patterns show up repeatedly — they'
 
 - **Ownership across the stack** — for the projects where I'm the sole developer, I own frontend, backend, database design, infrastructure, CI/CD, and day-2 operations, not just feature code.
 - **Environment-driven configuration** — no hardcoded secrets or endpoints; runtime config is injected through environment variables and validated at startup.
-- **Typed, validated boundaries** — TypeScript on the frontend and schema validation (Zod) on form and API boundaries, so bad data fails fast and close to the source.
+- **Typed, validated boundaries** — TypeScript on the frontend, generated typed routes (Wayfinder), and schema validation (Zod) on form and API boundaries, so bad data fails fast and close to the source.
+- **Tested and statically analysed** — Pest feature tests and PHPStan (level 7) on the backend, strict type checks on the frontend, and CI blocks any deploy that fails them.
 - **Zero-downtime deploys** — production releases use process managers (PM2) with reload strategies that don't drop in-flight requests.
 - **Separate staging and production** — every active project has an isolated staging environment (often protected behind Cloudflare Access) for changes to be verified before they reach real users.
 - **Security-conscious defaults** — session cookies are `httpOnly`, CSRF tokens are primed and replayed automatically, and redirect-based payment flows are cryptographically verified rather than trusted at face value.
@@ -177,11 +243,12 @@ Across these projects, a few architectural patterns show up repeatedly — they'
 
 | Concern | Approach |
 | --- | --- |
-| **CI/CD** | GitHub Actions pipelines per project — build, then deploy over SSH/rsync to a Linux VPS |
+| **CI/CD** | GitHub Actions pipelines per project — lint, type checks, static analysis and tests, then build and deploy over SSH/rsync to a Linux VPS |
 | **Process management** | PM2 ecosystem configs for SSR Node processes, with `startOrReload` for zero-downtime releases |
 | **Reverse proxy & SSL** | Apache reverse proxy, Cloudflare for DNS/CDN/SSL and Zero Trust access on staging |
 | **Environments** | Separate production and staging targets per project, driven from `main`/`dev` branches |
 | **Panels & hosting** | Webuzo and Plesk for VPS/hosting administration |
+| **Background work** | Database-backed queues with supervised workers for emails and reminders |
 | **Email infrastructure** | Self-hosted mail identities and webmail where managed services didn't cover business requirements |
 
 ---
@@ -206,6 +273,8 @@ Across these projects, a few architectural patterns show up repeatedly — they'
 - SSR / SSG / CSR / hybrid rendering with Nuxt
 - BFF proxy patterns & session security
 - Real-time frontend/backend data sync
+- Inertia.js monoliths with typed routes
+- Role & permission-based access control
 
 </td>
 <td valign="top" width="33%">
@@ -215,6 +284,7 @@ Across these projects, a few architectural patterns show up repeatedly — they'
 - CRM lead-forwarding pipelines
 - Courier / logistics API integrations
 - WordPress & Shopify integrations
+- PDF documents & transactional email
 
 </td>
 <td valign="top" width="33%">
@@ -224,6 +294,7 @@ Across these projects, a few architectural patterns show up repeatedly — they'
 - CI/CD pipeline design (GitHub Actions)
 - Zero-downtime deployment strategies
 - Reverse proxy, DNS, CDN & SSL configuration
+- Automated testing & static analysis in CI
 
 </td>
 </tr>
