@@ -55,7 +55,8 @@ Every project listed here was built during professional employment, for a real e
 | 1 | **[Gwadar Gymkhana — Public Website](./Gwadar-Gymkhana-Website)** | Sole Developer | Marketing site + payments | Nuxt 4 · Laravel · Bank Alfalah APG | 🟢 Live |
 | 2 | **[Gwadar Gymkhana — Member Portal](./Gwadar-Gymkhana-Member-Portal)** | Sole Developer | Member self-service dashboard | Nuxt 4 (BFF) · Laravel Sanctum | 🟢 Live |
 | 3 | **[VSH News — Advertising Platform](./VSH-News-Advertising-Platform)** | Sole Developer | Marketing SPA + lead capture | Vue 3 · Vite · CRM integration | 🟢 Live |
-| 4 | **[ERP & Logistics Systems](./ERP-Logistics-System)** | Backend Developer | Multi-module ERP | Laravel · Yii · CodeIgniter | ✅ Completed |
+| 4 | **[Vision Gwadar — Management System](./Vision-Gwadar-Management-System)** | Sole Developer | Back-office & recovery platform | Laravel 13 · Inertia · Vue 3 | 🟢 Live |
+| 5 | **[ERP & Logistics Systems](./ERP-Logistics-System)** | Backend Developer | Multi-module ERP | Laravel · Yii · CodeIgniter | ✅ Completed |
 
 <details>
 <summary><strong>📋 Quick project cards (click to expand)</strong></summary>
@@ -69,6 +70,9 @@ A Backend-for-Frontend (BFF) dashboard where members log in with OTP, pay dues o
 
 **📺 VSH News — Advertising Platform**
 A fast, animated single-page application for a satellite TV channel's ad-sales business: tiered pricing packages, an international lead-capture form wired into a CRM, and a digital magazine archive.
+
+**🏢 Vision Gwadar — Management System**
+A permission-gated back office for a property developer: customer files, instalment schedules, invoicing, payments, and monthly recovery reporting with queued reminders — plus the content and read-only JSON API behind the public website. Built as a Laravel + Inertia + Vue monolith, checked by PHPStan level 7 and a Pest test suite.
 
 **📦 ERP & Logistics Systems**
 A set of ERP modules — inventory, POS, purchasing, sales, and courier tracking — built to run real day-to-day order volume for SME retail clients, with multi-courier API integration for shipment tracking.
@@ -91,6 +95,9 @@ A set of ERP modules — inventory, POS, purchasing, sales, and courier tracking
 [![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EE4623?style=flat&logo=codeigniter&logoColor=white)](https://codeigniter.com)
 [![REST API](https://img.shields.io/badge/REST%20API-005571?style=flat&logo=fastapi&logoColor=white)](https://restfulapi.net)
 [![Laravel Sanctum](https://img.shields.io/badge/Laravel%20Sanctum-FF2D20?style=flat&logo=laravel&logoColor=white)](https://laravel.com/docs/sanctum)
+[![Laravel Fortify](https://img.shields.io/badge/Laravel%20Fortify-FF2D20?style=flat&logo=laravel&logoColor=white)](https://laravel.com/docs/fortify)
+[![Pest](https://img.shields.io/badge/Pest-56C02B?style=flat)](https://pestphp.com)
+[![PHPStan](https://img.shields.io/badge/PHPStan-1B5E20?style=flat)](https://phpstan.org)
 
 **Frontend**
 
@@ -101,6 +108,7 @@ A set of ERP modules — inventory, POS, purchasing, sales, and courier tracking
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat&logo=greensock&logoColor=black)](https://gsap.com)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)](https://vite.dev)
+[![Inertia.js](https://img.shields.io/badge/Inertia.js-9553E9?style=flat)](https://inertiajs.com)
 
 </td>
 <td valign="top" width="50%">
@@ -150,6 +158,8 @@ Across these projects, a few architectural patterns show up repeatedly — they'
 - **Backend-for-Frontend (BFF) proxying** — for authenticated apps, the browser never talks to the API directly; a server layer forwards requests, manages session cookies, and keeps tokens off the client.
 - **Signed, verifiable redirects** — anywhere a third-party payment gateway redirects a user back into an app, the return URL is signed (HMAC) and re-validated server-side before anything is shown to the user.
 - **CMS-driven content** — marketing content (pricing, testimonials, announcements) is fetched from the backend at render time rather than hardcoded, so non-technical stakeholders can update it without a deploy.
+- **Inertia monoliths for internal tools** — back-office apps use Laravel + Inertia + Vue with typed, generated routes, so there is one codebase and one deploy instead of a separate API and SPA.
+- **Backend-enforced permissions** — every route is gated by permission middleware; the UI only hides what the server would refuse anyway.
 - **Modular ERP domains** — larger systems are split into clear bounded modules (inventory, sales, purchasing, reporting) that share a common data layer but stay independently maintainable.
 
 ---
@@ -179,6 +189,7 @@ Across these projects, a few architectural patterns show up repeatedly — they'
 ## 🏆 Achievements
 
 - Sole developer responsible for architecting, building, and operating a live, multi-application production platform from the ground up.
+- Built and run a permission-gated back office (59 permission keys, PHPStan level 7, 35 test files) covering the full customer lifecycle for a property developer — from opening a file to recovering the last instalment.
 - Engineered a Laravel-backed media gallery API paired with a Vue 3 frontend, cutting perceived load time by roughly **50%**.
 - Delivered 5+ ERP modules (inventory, invoicing, sales) across Laravel, Yii, and CodeIgniter, and integrated 4+ third-party courier APIs for real-time shipment tracking.
 - Reworked POS inventory-sync logic, reducing stock discrepancies by roughly **50%** while the system processed **500+ daily orders** for SME retail clients with zero regression incidents.
