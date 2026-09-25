@@ -14,6 +14,8 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org)
+[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com)
 [![GitHub Actions](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)](#-engineering-practices)
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)](https://kernel.org)
 
@@ -56,7 +58,8 @@ Every project listed here was built during professional employment, for a real e
 | 2 | **[Gwadar Gymkhana — Member Portal](./Gwadar-Gymkhana-Member-Portal)** | Sole Developer | Member self-service dashboard | Nuxt 4 (BFF) · Laravel Sanctum | 🟢 Live |
 | 3 | **[VSH News — Advertising Platform](./VSH-News-Advertising-Platform)** | Sole Developer | Marketing SPA + lead capture | Vue 3 · Vite · CRM integration | 🟢 Live |
 | 4 | **[Vision Gwadar — Management System](./Vision-Gwadar-Management-System)** | Sole Developer | Back-office & recovery platform | Laravel 13 · Inertia · Vue 3 | 🟢 Live |
-| 5 | **[ERP & Logistics Systems](./ERP-Logistics-System)** | Backend Developer | Multi-module ERP | Laravel · Yii · CodeIgniter | ✅ Completed |
+| 5 | **[Gwadar Gymkhana — Reciprocal Outreach Review](./Gwadar-Gymkhana-Reciprocal-Outreach)** | Sole Developer | Internal review dashboard + daily automation | Nuxt 4 (SPA) · Supabase · PostgreSQL | 🟢 Live |
+| 6 | **[ERP & Logistics Systems](./ERP-Logistics-System)** | Backend Developer | Multi-module ERP | Laravel · Yii · CodeIgniter | ✅ Completed |
 
 <details>
 <summary><strong>📋 Quick project cards (click to expand)</strong></summary>
@@ -73,6 +76,9 @@ A fast, animated single-page application for a satellite TV channel's ad-sales b
 
 **🏢 Vision Gwadar — Management System**
 A permission-gated back office for a property developer: customer files, instalment schedules, invoicing, payments, and monthly recovery reporting with queued reminders — plus the content and read-only JSON API behind the public website. Built as a Laravel + Inertia + Vue monolith, checked by PHPStan level 7 and a Pest test suite.
+
+**🌍 Gwadar Gymkhana — Reciprocal Outreach Review**
+A serverless review dashboard for the club's reciprocal-club outreach. A scheduled Claude task drafts 10 invitation emails a day into Supabase; staff review, approve, and send them by hand, and a world map shows which countries have been reached. All security lives in Postgres (Row Level Security + column-level grants), so the browser can only change a draft's status.
 
 **📦 ERP & Logistics Systems**
 A set of ERP modules — inventory, POS, purchasing, sales, and courier tracking — built to run real day-to-day order volume for SME retail clients, with multi-courier API integration for shipment tracking.
@@ -139,8 +145,9 @@ Responsive from ~320px · light/dark themes · design-system docs
 [![Passkeys (WebAuthn)](https://img.shields.io/badge/Passkeys%20%28WebAuthn%29-3423A6?style=flat&logo=webauthn&logoColor=white)](https://webauthn.io)
 [![2FA (TOTP)](https://img.shields.io/badge/2FA%20%28TOTP%29-4B5563?style=flat)](https://en.wikipedia.org/wiki/Time-based_one-time_password)
 [![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat&logo=zod&logoColor=white)](https://zod.dev)
+[![Supabase Auth](https://img.shields.io/badge/Supabase%20Auth-3ECF8E?style=flat&logo=supabase&logoColor=white)](https://supabase.com/auth)
 
-OTP login · role & permission access control · CSRF & httpOnly sessions · HMAC-signed redirects
+OTP login · role & permission access control · CSRF & httpOnly sessions · HMAC-signed redirects · Postgres Row Level Security & column-level grants
 
 </td>
 </tr>
@@ -152,8 +159,10 @@ OTP login · role & permission access control · CSRF & httpOnly sessions · HMA
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)](https://www.mysql.com)
 [![MSSQL](https://img.shields.io/badge/MSSQL-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)](https://www.microsoft.com/en-us/sql-server)
 [![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)](https://www.sqlite.org)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org)
+[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)](https://supabase.com)
 
-Payment gateways · CRM webhooks (Privyr) · courier tracking APIs · transactional email · WordPress/Shopify integrations
+Supabase (Auth + PostgREST) · Payment gateways · CRM webhooks (Privyr) · courier tracking APIs · transactional email · WordPress/Shopify integrations
 
 </td>
 <td valign="top" width="50%">
@@ -193,8 +202,10 @@ rsync/SSH deploys · separate staging & production · zero-downtime reloads
 [![Composer](https://img.shields.io/badge/Composer-885630?style=flat&logo=composer&logoColor=white)](https://getcomposer.org)
 [![pnpm](https://img.shields.io/badge/pnpm-F69220?style=flat&logo=pnpm&logoColor=white)](https://pnpm.io)
 [![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)](https://git-scm.com)
+[![Supabase CLI](https://img.shields.io/badge/Supabase%20CLI-3ECF8E?style=flat&logo=supabase&logoColor=white)](https://supabase.com/docs/guides/local-development)
+[![Claude](https://img.shields.io/badge/Claude%20%28AI%20automation%29-D97757?style=flat&logo=claude&logoColor=white)](https://www.anthropic.com/claude)
 
-Laravel Sail · Tinker · Pail · Laravel Boost
+Laravel Sail · Tinker · Pail · Laravel Boost · scheduled Claude tasks for data import
 
 </td>
 </tr>
@@ -225,6 +236,8 @@ Across these projects, a few architectural patterns show up repeatedly — they'
 - **CMS-driven content** — marketing content (pricing, testimonials, announcements) is fetched from the backend at render time rather than hardcoded, so non-technical stakeholders can update it without a deploy.
 - **Inertia monoliths for internal tools** — back-office apps use Laravel + Inertia + Vue with typed, generated routes, so there is one codebase and one deploy instead of a separate API and SPA.
 - **Backend-enforced permissions** — every route is gated by permission middleware; the UI only hides what the server would refuse anyway.
+- **Serverless SPAs with database-enforced security** — for small internal tools, a static Nuxt SPA talks straight to Supabase; every rule lives in Postgres (Row Level Security + column-level grants), so the public key in the browser opens nothing on its own.
+- **AI-assisted data pipelines with a human in the loop** — scheduled Claude tasks do the slow research and data entry, but a person still reviews and approves every result before it is used.
 - **Modular ERP domains** — larger systems are split into clear bounded modules (inventory, sales, purchasing, reporting) that share a common data layer but stay independently maintainable.
 
 ---
@@ -237,6 +250,7 @@ Across these projects, a few architectural patterns show up repeatedly — they'
 - **Tested and statically analysed** — Pest feature tests and PHPStan (level 7) on the backend, strict type checks on the frontend, and CI blocks any deploy that fails them.
 - **Zero-downtime deploys** — production releases use process managers (PM2) with reload strategies that don't drop in-flight requests.
 - **Separate staging and production** — every active project has an isolated staging environment (often protected behind Cloudflare Access) for changes to be verified before they reach real users.
+- **Security at the lowest layer** — where there is no server, access rules are enforced in the database itself (RLS, column-level grants, CHECK constraints), not just hidden in the UI.
 - **Security-conscious defaults** — session cookies are `httpOnly`, CSRF tokens are primed and replayed automatically, and redirect-based payment flows are cryptographically verified rather than trusted at face value.
 
 ## 🚀 DevOps & Infrastructure
@@ -249,6 +263,8 @@ Across these projects, a few architectural patterns show up repeatedly — they'
 | **Environments** | Separate production and staging targets per project, driven from `main`/`dev` branches |
 | **Panels & hosting** | Webuzo and Plesk for VPS/hosting administration |
 | **Background work** | Database-backed queues with supervised workers for emails and reminders |
+| **Serverless apps** | Static SPA builds on any static host, with Supabase for Auth, Postgres and the API; schema changes shipped as versioned migrations via the Supabase CLI |
+| **Scheduled automation** | Daily Claude tasks that research data and write it straight into Supabase |
 | **Email infrastructure** | Self-hosted mail identities and webmail where managed services didn't cover business requirements |
 
 ---
@@ -257,6 +273,7 @@ Across these projects, a few architectural patterns show up repeatedly — they'
 
 - Sole developer responsible for architecting, building, and operating a live, multi-application production platform from the ground up.
 - Built and run a permission-gated back office (59 permission keys, PHPStan level 7, 35 test files) covering the full customer lifecycle for a property developer — from opening a file to recovering the last instalment.
+- Built a serverless outreach dashboard where a scheduled Claude task drafts **10 invitation emails a day** into Supabase, and a master club list guarantees no club is contacted twice — with the browser limited to changing only two database columns.
 - Engineered a Laravel-backed media gallery API paired with a Vue 3 frontend, cutting perceived load time by roughly **50%**.
 - Delivered 5+ ERP modules (inventory, invoicing, sales) across Laravel, Yii, and CodeIgniter, and integrated 4+ third-party courier APIs for real-time shipment tracking.
 - Reworked POS inventory-sync logic, reducing stock discrepancies by roughly **50%** while the system processed **500+ daily orders** for SME retail clients with zero regression incidents.
@@ -275,6 +292,7 @@ Across these projects, a few architectural patterns show up repeatedly — they'
 - Real-time frontend/backend data sync
 - Inertia.js monoliths with typed routes
 - Role & permission-based access control
+- Supabase / Postgres RLS & column-level grants
 
 </td>
 <td valign="top" width="33%">
@@ -285,6 +303,7 @@ Across these projects, a few architectural patterns show up repeatedly — they'
 - Courier / logistics API integrations
 - WordPress & Shopify integrations
 - PDF documents & transactional email
+- AI-assisted automation (scheduled Claude tasks)
 
 </td>
 <td valign="top" width="33%">
