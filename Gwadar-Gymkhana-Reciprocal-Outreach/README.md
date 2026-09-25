@@ -46,7 +46,7 @@
 | --- | --- |
 | **Industry** | Hospitality / Private Membership Clubs |
 | **Team Size** | Solo |
-| **Duration** | 4 days (about 6.5 hours a day, alongside other projects) |
+| **Duration** | 4 days |
 | **My Role** | Sole Developer (frontend, database design, security model, automation) |
 | **Status** | 🟢 Live (internal tool) |
 
